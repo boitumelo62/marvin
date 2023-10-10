@@ -1,11 +1,43 @@
 body {
-    background-color: white;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
 }
 
 div {
-    display: grid;
-    place-items: center;
+  display: grid;
+  grid-template-columns: 133px 350px 252px;
+  place-items: center;
+  height: 100vh;
+  width: 804px;
+  gap: 36px;
+  margin: 0 auto;
+}
+
+div section#heading {
+  color: black;
+  margin-top: 0vh;
+}
+
+div section#image {
+}
+
+div section#text {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", seri;
+  margin-top: 14vh;
+}
+
+div section#text h3 {
+  color: #e5e5e5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+div section#text h5 {
+  color: #b2b2b2;
+}
+
+div section#text h6 {
+  color: #e4e4e4;
 }
