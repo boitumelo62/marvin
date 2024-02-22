@@ -1,7 +1,7 @@
 body {
   background-color: white;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:   font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
   margin: 0;
 }
@@ -50,7 +50,7 @@ main div#story article h2 {
   color: rgb(228, 228, 228);
   font-size: 2rem;
   font-weight: lighter;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Goudy Old Style";
   margin-bottom: 1.5rem;
   transition-delay: 2ms;
 }
